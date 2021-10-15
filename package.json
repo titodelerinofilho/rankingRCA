@@ -1,4 +1,14 @@
 {
   "name": "rankingRCA",
-  "packageManager": "yarn@3.0.2"
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "repository": "https://github.com/titodelerinofilho/rankingRCA.git",
+  "author": "titodelerinofilho <f.titodelerino@gmail.com>",
+  "license": "MIT"
 }
